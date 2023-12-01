@@ -3,10 +3,15 @@ title: "Labs Members"
 author: "Simon Dedman"
 runtime: shiny
 ---
-
+```{r setup, include = FALSE}
+library(shiny)
+library(DT)
+```
 Create markdown doc from /R/labs-members-metadata-comms.R
 
 Need to improve code for labs websites scraping to tables. Bard did it but its code doesn't work.
+
+Also it's pulling from [Mike](https://mikeheithaus.com/research/lab/) and [Yannis/Demian's](https://www.peclabfiu.com/team) lab sites which are out of date (admittedly Peclab only slightly), so it's only as useful as the inputs. Leading me to think we should have an MSB master tabel anyone can update easily.
 
 ```{r, echo = FALSE}
 labs_members <- read.csv(file = "data/labs_members.csv")
