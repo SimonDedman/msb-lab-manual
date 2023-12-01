@@ -2,14 +2,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Faylab Lab Manual",
+    "title": "FIU BBC MSB Labs Manual",
     "section": "",
-    "text": "1 Welcome!\nThis is the lab manual for the Marine Science Building labs at Florida International University.\nThe focus of our work is: COMPLETETHIS\nMore about our group’s research activity can be found on our lab websites:\nThis lab manual resource is intended to provide an overview for lab members and others about how we do our work, and our expectations for our team. It is also a space to document institutional knowledge and for important information about procedures and available resources. If you have suggestions for additions or changes, please make a pull request.\nThe Github R project file pertaining to this frame (from “Welcome” to the bottom, not including the side panes) is index.qmd."
+    "text": "1 Welcome!\nThis is the lab manual for the Marine Science Building labs at Florida International University.\nThe focus of our work is: COMPLETETHIS\nMore about our group’s research activity can be found on our lab websites:\nThis lab manual resource is intended to provide an overview for lab members and others about how we do our work, and our expectations for our team. It is also a space to document institutional knowledge and for important information about procedures and available resources. If you have suggestions for additions or changes, please make a pull request.\nThe Github R project file pertaining to this frame (from “Welcome” to the bottom, not including the side panes) is index.qmd. The top and side bits are edited in _quarto.yml (update this if you add a chapter!). If creating a new site like this one, also edit sitemap.xml and possibly also robots.txt."
   },
   {
     "objectID": "index.html#acknowledgements",
     "href": "index.html#acknowledgements",
-    "title": "Faylab Lab Manual",
+    "title": "FIU BBC MSB Labs Manual",
     "section": "1.1 Acknowledgements",
     "text": "1.1 Acknowledgements\nThe structure for this manual was forked from Gavin Fay’s FayLab manual following these steps (plus some wrangling to get it to work), which was itself developed as part of the Openscapes Champions program.\n  This manual is licensed under a Creative Commons Attribution 4.0 International License."
   },
@@ -366,14 +366,14 @@
   {
     "objectID": "12-umassd-resources.html#general-information-about-umass-dartmouth-and-smast",
     "href": "12-umassd-resources.html#general-information-about-umass-dartmouth-and-smast",
-    "title": "13  UMass Dartmouth, SMAST, and Fay Lab Resources",
+    "title": "13  Resources",
     "section": "13.1 General information about UMass Dartmouth and SMAST",
     "text": "13.1 General information about UMass Dartmouth and SMAST\nThe SMAST Department website lists all faculty, staff, and students across both departments (DEOS & DFO). This is not updated frequently but may help you in locating a specific person and their contact information.\nSMAST directory…though again doesn’t get updated frequently.\nIf you need help with a specific task, there are some staff members that are more approproate to contact. Please use the link below to locate someone to help you. For example, if you are planning on traveling (DEOS & DFO), you see that Christine Fox is the primary contact with Sue Silva as the secondary point of contact.\n\nStaff at SMAST that are useful resources - click on view raw at bottom of page.\n\nAn excel spreadsheet which lists the primary and secondary points of contact for SMAST related business will be downloaded to your computer.\n\n\nSMAST occupants portal. Login in to\n\n13.1.1 University Codes of Conduct\n\nStudent conduct and dispute resolution\nSMAST’s code of conduct and diversity statement. Note, link to a word document should be at the bottom of the linked webpage.\n\n\n\n13.1.2 For Grad Students\n\nOfficial SMAST webpage for current and incoming students. This has information on orientation materials, forms, scholarships/fellowships/assistantships, and academics.\n\n\n\n13.1.3 For Employees\n\nEmployee resources\nHuman Resources"
   },
   {
     "objectID": "12-umassd-resources.html#fay-lab-resources",
     "href": "12-umassd-resources.html#fay-lab-resources",
-    "title": "13  UMass Dartmouth, SMAST, and Fay Lab Resources",
+    "title": "13  Resources",
     "section": "13.2 Fay Lab Resources",
     "text": "13.2 Fay Lab Resources\nFay Lab website Fay Lab Google Drive & Calendar - ask Ashleigh for a link to access & collaborate! - Lab email -&gt; thefaylab@gmail.com Fay Lab GitHub account - Lab-chat repository houses an Issues list that retains institutional and Fay Lab knowledge. It’s private so be sure to ask Gavin for access! Our current team Lab publications Professional development materials: Jobs, Grants, & Degrees Outreach opportunities - UMassD Society for Women in Marine Science (SWMS) Chapter - UMassD Underrepresented Women as Leaders in STEAM Travel Procedures\n\n13.2.1 Weekly Lab Meetings\n\nEvery Tuesday from 1 - 2:30 PM EST\nOn occasion, this time is used for Quantfish woRkshops where lab members or invited guests come to teach the group and larger community a quantative skill (could be an introduction to a new R package, new statistical tool, etc)\n\n\n\n13.2.2 Shut Up and Write\n\nEvery Thursday from 3 - 4:30 PM EST (besides the 1st Thursday of every month which is reserved for Hacky Hour -&gt; see below!)\nPomodoro-style workflow. Three, 20-minute sessions interspersed by ~5 minute breaks.\n\n\n\n13.2.3 Hacky Hours/Southcoast useR group\n\n1st Thursday of every month\nMixed bag including working through tidy tuesdays, informal feedback presentations, etc."
   }
