@@ -1,25 +1,23 @@
 # Welcome!
 
-Welcome to our book of magical secrets.
+This is the lab manual for the Marine Science Building labs at Florida International University.\
+The focus of our work is: **COMPLETETHIS**\
+More about our group's research activity can be found on our lab websites:
 
-<br> This is the lab manual for the Marine Science Building labs at Florida International University\
-The focus of our work centers around developing interdisciplinary modeling approaches to extend the scope of applications for fisheries and ecosystem-based management. More about our group's research activity can be found on our [website](https://thefaylab.com).
+* Mike Heithaus
 
-This lab manual resource is intended to provide an overview for lab members and others about how we do our work, and our expectations for our team. It is also a space to document institutional knowledge and for important information about procedures and available resources. If you have suggestions for additions or changes, please contact Gavin (gfay\@umassd.edu) or make a pull request.
+* Yannis Papastamatiou
 
-<br>
+* Al Harbourne
 
-The content for this book was developed as part of our group's participation in the [Openscapes Champions program](https://openscapes.org).\
-We are extremely grateful to and acknowledge [Dr. Julia Stewart Lowndes](https://twitter.com/juliesquid)' role in helping shape how our lab both works and how we articulate our identity. 🙏\
-Thanks also to [Ileana Fenwick](https://twitter.com/_ileanaf) and [Stefanie Butland](https://twitter.com/StefanieButland) for their work moving the lab-manual from bookdown to Quarto. 🙌\
+* Etc **COMPLETETHIS**
 
+This lab manual resource is intended to provide an overview for lab members and others about how we do our work, and our expectations for our team. It is also a space to document institutional knowledge and for important information about procedures and available resources. If you have suggestions for additions or changes, please [make a pull request](https://github.com/SimonDedman/msb-lab-manual/).
 
-[![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){fig-align="left" width="35px"}](https://github.com/thefaylab/lab-manual) \< link to this book's GitHub repository. Also see [Quick steps to making a copy of the lab manual and publishing it](https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&-publishing-it)!
+The Github R project file pertaining to this *frame* (from "Welcome" to the bottom, not including the side panes) is `index.qmd`.
 
-![](img/openscapes_hex_badge.png){width="25%"}
+## Acknowledgements
 
-[*We're proud Openscapes Champions!*](https://openscapes.org)
+The structure for this manual was forked from Gavin Fay's FayLab manual following [these steps](https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&-publishing-it) (plus some wrangling to get it to work), which was itself developed as part of the Openscapes Champions program.
 
-------------------------------------------------------------------------
-
-[![](img/creative_commons.png)](http://creativecommons.org/licenses/by/4.0/){fig-alt="Creative Commons License"}This lab is licensed under a [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+<a rel='license' href='http://creativecommons.org/licenses/by/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by/4.0/88x31.png' /></a>&nbsp;&nbsp;This manual is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>.
