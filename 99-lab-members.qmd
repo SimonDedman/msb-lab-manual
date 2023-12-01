@@ -6,6 +6,7 @@ runtime: shiny
 ```{r setup, include = FALSE}
 library(shiny)
 library(DT)
+library(rmarkdown)
 ```
 Create markdown doc from /R/labs-members-metadata-comms.R
 
