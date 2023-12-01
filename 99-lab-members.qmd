@@ -1,8 +1,14 @@
 ---
 title: "Labs Members"
 author: "Simon Dedman"
+runtime: shiny
 ---
 
 Create markdown doc from /R/labs-members-metadata-comms.R
 
 Need to improve code for labs websites scraping to tables. Bard did it but its code doesn't work.
+
+```{r, echo = FALSE}
+labs_members <- read.csv(file = "data/labs_members.csv")
+DT::renderDT({labs_members})
+```
