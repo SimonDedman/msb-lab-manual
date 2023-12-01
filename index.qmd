@@ -14,7 +14,7 @@ More about our group's research activity can be found on our lab websites:
 
 This lab manual resource is intended to provide an overview for lab members and others about how we do our work, and our expectations for our team. It is also a space to document institutional knowledge and for important information about procedures and available resources. If you have suggestions for additions or changes, please [make a pull request](https://github.com/SimonDedman/msb-lab-manual/).
 
-The Github R project file pertaining to this *frame* (from "Welcome" to the bottom, not including the side panes) is `index.qmd`.
+The Github R project file pertaining to this *frame* (from "Welcome" to the bottom, not including the side panes) is `index.qmd`. The top and side bits are edited in `_quarto.yml` (update this if you add a chapter!). If creating a new site like this one, also edit `sitemap.xml` and possibly also `robots.txt`.
 
 ## Acknowledgements
 
