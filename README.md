@@ -5,6 +5,8 @@
 
 For **incoming, current, and outgoing** members of the MSB, to be collaboratively edited by its users, rather than the work of one individual. To make changes, do a pull request and your changes will be reviewed then pulled into the manual for everyone to see & benefit from.
 
+This file/page is edited in README.md and rendered/published to <https://github.com/SimonDedman/msb-lab-manual> i.e. the GitHub *code project page*. Quarto (qmd) files within the project directory are rendered/published to the actual online manual, <https://simondedman.github.io/msb-lab-manual>
+
 ## How to fork this project
 
 1. Have a [Github](https://github.com/) account.
