@@ -1,17 +1,21 @@
 <p align="center"> 
-   :sparkles: Welcome to the Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual! :sparkles: 
+   :sparkles: Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual :sparkles: 
 </p>
 
 
-This Quarto book is intended to be used for **incoming, current, and outgoing** members of the MSB. It is designed to be collaboratively edited by its users, rather than the work of one individual. To make changes, do a pull request and your changes will be reviewed then pulled into the manual for everyone to see & benefit from.
+For **incoming, current, and outgoing** members of the MSB, to be collaboratively edited by its users, rather than the work of one individual. To make changes, do a pull request and your changes will be reviewed then pulled into the manual for everyone to see & benefit from.
+
+## How to fork this project
+
+1. Have a [Github](https://github.com/) account.
+2. [Setup Git on RStudio and Associate with GitHub](https://www.r-bloggers.com/2015/07/rstudio-and-github/).
+3. Fork the project (e.g. this one) on the project's Github webpage (top right). This copies the external project to your own Github account.
+4. In your GitHub forked project webpage, click the green `code` button, copy git address.
+5. In your filesystem (/home, My Computer, etc., i.e. not online, look away fropm your browser), choose a parent folder to host the project folder and its files and folders. The result will be a folder called "msb-lab-manual" WITHIN the folder you choose, so I suggest either something FIU-specific (e.g. /FIU/Code) or somewhere which will host multiple of your own projects and forked projects in the future (e.g. /R). In that folder open a terminal AKA command prompt, and type `git clone [gitaddress]`. You will need to have [git installed](https://git-scm.com/downloads) (if you use linux it's already installed, well done you).
+6. Go to the new subfolder and open the .Rproj file in RStudio (hopefully you can just doubleclick it).
 
 ## How to do a pull request
-
-1. Fork project on github (top right).
-2. In yout GitHub forked project, click green "code" button, copy git address.
-3. In a folder on your filesystem: "git clone [gitaddress]".
-4. Go to new subfolder, open Rproj in RStudio.
-5. Make changes in your local files in RStudio, test, devtools::document(), 'git commit push' to your own Github fork.
+5. Make changes in your local files in RStudio, e.g. open the relevant qmd file for a page you want to change, test your edits bywith the Render button, then type `devtools::document()` in the console to synchronise any documentation changes resulting from your edits (unlikely for qmd files but good practice generally), then click the "GIT" icon in the top bar of RStudio, "Commit...", select all the files on the left hand side so they're all ticked (staged to be committed; I ctrl+shift+click the bottom one while the top one's selected, then hit the space bar), type a commit message briefly explaining what these changes are,   `git commit push` to your own Github fork.
 6. Go to original (other person's) package, pull requests, create, "compare across forks", select your fork as the right hand side. "Create pull request" button.
 7. If it's not automatically named correctly, name it well. See https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue.
 8. Example: https://github.com/r-lib/usethis/pull/1898

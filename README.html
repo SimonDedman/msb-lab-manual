@@ -46,17 +46,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p align="center">
-:sparkles: Welcome to the Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual! :sparkles:
+:sparkles: Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual :sparkles:
 </p>
-<p>This Quarto book is intended to be used for <strong>incoming, current, and outgoing</strong> members of the MSB. It is designed to be collaboratively edited by its users, rather than the work of one individual. To make changes, do a pull request and your changes will be reviewed then pulled into the manual for everyone to see &amp; benefit from.</p>
+<p>For <strong>incoming, current, and outgoing</strong> members of the MSB, to be collaboratively edited by its users, rather than the work of one individual. To make changes, do a pull request and your changes will be reviewed then pulled into the manual for everyone to see &amp; benefit from.</p>
+<section id="how-to-fork-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-fork-this-project">How to fork this project</h2>
+<ol type="1">
+<li>Have a <a href="https://github.com/">Github</a> account.</li>
+<li><a href="https://www.r-bloggers.com/2015/07/rstudio-and-github/">Setup Git on RStudio and Associate with GitHub</a>.</li>
+<li>Fork the project (e.g.&nbsp;this one) on the project’s Github webpage (top right). This copies the external project to your own Github account.</li>
+<li>In your GitHub forked project webpage, click the green <code>code</code> button, copy git address.</li>
+<li>In your filesystem (/home, My Computer, etc., i.e.&nbsp;not online, look away fropm your browser), choose a parent folder to host the project folder and its files and folders. The result will be a folder called “msb-lab-manual” WITHIN the folder you choose, so I suggest either something FIU-specific (e.g.&nbsp;/FIU/Code) or somewhere which will host multiple of your own projects and forked projects in the future (e.g.&nbsp;/R). In that folder open a terminal AKA command prompt, and type <code>git clone [gitaddress]</code>. You will need to have <a href="https://git-scm.com/downloads">git installed</a> (if you use linux it’s already installed, well done you).</li>
+<li>Go to the new subfolder and open the .Rproj file in RStudio (hopefully you can just doubleclick it).</li>
+</ol>
+</section>
 <section id="how-to-do-a-pull-request" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-do-a-pull-request">How to do a pull request</h2>
-<ol type="1">
-<li>Fork project on github (top right).</li>
-<li>In yout GitHub forked project, click green “code” button, copy git address.</li>
-<li>In a folder on your filesystem: “git clone [gitaddress]”.</li>
-<li>Go to new subfolder, open Rproj in RStudio.</li>
-<li>Make changes in your local files in RStudio, test, devtools::document(), ‘git commit push’ to your own Github fork.</li>
+<ol start="5" type="1">
+<li>Make changes in your local files in RStudio, e.g.&nbsp;open the relevant qmd file for a page you want to change, test your edits bywith the Render button, then type <code>devtools::document()</code> in the console to synchronise any documentation changes resulting from your edits (unlikely for qmd files but good practice generally), then click the “GIT” icon in the top bar of RStudio, “Commit…”, select all the files on the left hand side so they’re all ticked (staged to be committed; I ctrl+shift+click the bottom one while the top one’s selected, then hit the space bar), type a commit message briefly explaining what these changes are, <code>git commit push</code> to your own Github fork.</li>
 <li>Go to original (other person’s) package, pull requests, create, “compare across forks”, select your fork as the right hand side. “Create pull request” button.</li>
 <li>If it’s not automatically named correctly, name it well. See https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue.</li>
 <li>Example: https://github.com/r-lib/usethis/pull/1898</li>
