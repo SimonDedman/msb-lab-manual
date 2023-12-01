@@ -12,3 +12,5 @@ Need to improve code for labs websites scraping to tables. Bard did it but its c
 labs_members <- read.csv(file = "data/labs_members.csv")
 DT::renderDT({labs_members})
 ```
+
+Test. If you see this, the table above isn't working.
