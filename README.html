@@ -75,6 +75,11 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=desktop">More info</a>.</p>
 </section>
+<section id="general-info-about-site-structure-editing" class="level2">
+<h2 class="anchored" data-anchor-id="general-info-about-site-structure-editing">General info about site structure &amp; editing</h2>
+<p>The Github R project file pertaining to the central <em>frame</em> on the first <a href="https://simondedman.github.io/msb-lab-manual">page</a> (from “Welcome” to the bottom, not including the top and side panes) is <code>index.qmd</code>. The top and side bits are edited in <code>_quarto.yml</code> (chapters are autopopulated: 1 = index.qmd (this file), then alphabetically by qmd filenames in the root folder, pulling the name from the name of the header in each file). References are tagged thus: <code>[@wilson2017]</code>, corresponding to a bibtext entry added to <code>references.bib</code>. If creating a new site like this one, also edit <code>sitemap.xml</code> and possibly also <code>robots.txt</code>.</p>
+<p>Adding more complex stuff than just text is possible and very much encouraged, e.g.&nbsp;the table on the lab members page. Look around for existing examples on this site and elsewhere you can copy from rather than trying to bash your head against the wall. Also check the <a href="https://github.com/SimonDedman/msb-lab-manual/actions">Github actions page</a>, though this might only be useful for the package owner…</p>
+</section>
 <section id="acknowledgements" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
 <p>The structure for this manual was forked from Gavin Fay’s FayLab manual following <a href="https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&amp;-publishing-it">these steps</a> (plus some wrangling to get it to work), which was itself developed as part of the Openscapes Champions program.</p>

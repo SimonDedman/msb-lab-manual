@@ -27,6 +27,13 @@ Go to the QMD file for a page you want to edit and make changes using [RMarkdown
 
 [More info](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=desktop).
 
+## General info about site structure & editing
+
+The Github R project file pertaining to the central *frame* on the first [page](https://simondedman.github.io/msb-lab-manual) (from "Welcome" to the bottom, not including the top and side panes) is `index.qmd`. The top and side bits are edited in `_quarto.yml` (chapters are autopopulated: 1 = index.qmd (this file), then alphabetically by qmd filenames in the root folder, pulling the name from the name of the header in each file). References are tagged thus: `[@wilson2017]`, corresponding to a bibtext entry added to `references.bib`. If creating a new site like this one, also edit `sitemap.xml` and possibly also `robots.txt`.
+
+Adding more complex stuff than just text is possible and very much encouraged, e.g. the table on the lab members page. Look around for existing examples on this site and elsewhere you can copy from rather than trying to bash your head against the wall. Also check the [Github actions page](https://github.com/SimonDedman/msb-lab-manual/actions), though this might only be useful for the package owner...
+
+
 ## Acknowledgements
 
 The structure for this manual was forked from Gavin Fay's FayLab manual following [these steps](https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&-publishing-it) (plus some wrangling to get it to work), which was itself developed as part of the Openscapes Champions program.
