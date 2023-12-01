@@ -1,0 +1,10 @@
+---
+title: "Labs Members"
+author: "Simon Dedman"
+---
+
+# Labs members, alumni {#people}
+
+Create markdown doc from /R/labs-members-metadata-comms.R
+
+Need to improve code for labs websites scraping to tables. Bard did it but its code doesn't work.

@@ -66,7 +66,6 @@ gs_assign(data, gsheet, "Team Members")
 # Install and load the googlesheets4 package
 install.packages("googlesheets4")
 library(googlesheets4)
-library(googlesheets4)
 library(dplyr)
 
 # Import the first spreadsheet
@@ -161,8 +160,11 @@ labs_members %<>% dplyr::arrange(desc(Active), People)
 # Rearrange columns
 labs_members %<>% dplyr::select(People, Status, Active, everything())
 
-# Remove social columns before displau
-labs_members %<>% dplyr::select(People:YannisDemian)
+# Remove social columns then save to /data
+labs_members %>%
+  dplyr::select(People:YannisDemian) %T>%
+  write.csv(file = "data/labs_members.csv",
+            row.names = FALSE)
 
 # Manually override active status for known but not webpage updated alumni
 
