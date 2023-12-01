@@ -22,8 +22,6 @@ For **incoming, current, and outgoing** members of the MSB, to be collaborativel
 
 [More info](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=desktop).
 
-**Acknowledgements**
-
 The structure for this manual was forked from Gavin Fay's FayLab manual following [these steps](https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&-publishing-it) (plus some wrangling to get it to work), which was itself developed as part of the Openscapes Champions program.
 ---
 
