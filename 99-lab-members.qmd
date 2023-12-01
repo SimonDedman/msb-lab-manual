@@ -4,6 +4,7 @@ author: "Simon Dedman"
 runtime: shiny
 ---
 ```{r setup, include = FALSE}
+install.packages("rmarkdown")
 library(shiny)
 library(DT)
 library(rmarkdown)
