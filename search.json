@@ -380,8 +380,8 @@
   {
     "objectID": "99-lab-members.html",
     "href": "99-lab-members.html",
-    "title": "14  Labs Members",
+    "title": "14  Labs members, alumni",
     "section": "",
-    "text": "15 Labs members, alumni\nCreate markdown doc from /R/labs-members-metadata-comms.R\nNeed to improve code for labs websites scraping to tables. Bard did it but its code doesn’t work."
+    "text": "Create markdown doc from /R/labs-members-metadata-comms.R\nNeed to improve code for labs websites scraping to tables. Bard did it but its code doesn’t work."
   }
 ]
