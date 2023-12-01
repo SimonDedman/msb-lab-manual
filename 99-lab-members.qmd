@@ -1,7 +1,7 @@
----
-title: "Labs Members"
-author: "Simon Dedman"
----
+<!-- # --- -->
+<!-- # title: "Labs Members" -->
+<!-- # author: "Simon Dedman" -->
+<!-- # --- -->
 
 # Labs members, alumni {#people}
 
