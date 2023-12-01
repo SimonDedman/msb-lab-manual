@@ -1,14 +1,23 @@
 <p align="center"> 
-   :sparkles: Welcome to the Faylab Lab Manual! :sparkles: 
+   :sparkles: Welcome to the Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual! :sparkles: 
 </p>
 
 
-This ~~bookdown~~ Quarto book is intended to be used for **incoming, current, and outgoing** members of the Fay lab group. If we missed anything, please let Gavin Fay (gfay@umassd.edu) or Madeleine Guyant (mguyant@umassd.edu) know. You can also do a pull request and we will review the changes. 
+This Quarto book is intended to be used for **incoming, current, and outgoing** members of the MSB. It is designed to be collaboratively edited by its users, rather than the work of one individual. To make changes, do a pull request and your changes will be reviewed then pulled into the manual for everyone to see & benefit from.
 
-We hope this has all the answers you need!
+## How to do a pull request
 
+1. Fork project on github (top right).
+2. In yout GitHub forked project, click green "code" button, copy git address.
+3. In a folder on your filesystem: "git clone [gitaddress]".
+4. Go to new subfolder, open Rproj in RStudio.
+5. Make changes in your local files in RStudio, test, devtools::document(), 'git commit push' to your own Github fork.
+6. Go to original (other person's) package, pull requests, create, "compare across forks", select your fork as the right hand side. "Create pull request" button.
+7. If it's not automatically named correctly, name it well. See https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue.
+8. Example: https://github.com/r-lib/usethis/pull/1898
 
-__Want to adapt the lab manual for your group?__ This [short tutorial](https://github.com/thefaylab/lab-manual/wiki/Quick-steps-to-making-a-copy-of-the-lab-manual-&-publishing-it) steps through how to make your own copy of the lab manual repository and set it up so that it automatically publishes the book to the web (and updates as you make changes).  
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request?tool=desktop
+
 
 **Acknowledgements**
 
