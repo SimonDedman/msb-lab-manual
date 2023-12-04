@@ -3,21 +3,27 @@ title: "Labs Members"
 author: "Simon Dedman"
 runtime: shiny
 ---
-```{r setup, include = FALSE}
+```{r setup}
+#| warning: false
+#| echo: false
+#| message: false
+#| include: false
 install.packages("rmarkdown")
-library(shiny)
+# library(shiny)
 library(DT)
-library(rmarkdown)
+# library(rmarkdown)
 ```
 Create markdown doc from /R/labs-members-metadata-comms.R
 
 Need to improve code for labs websites scraping to tables. Bard did it but its code doesn't work.
 
-Also it's pulling from [Mike](https://mikeheithaus.com/research/lab/) and [Yannis/Demian's](https://www.peclabfiu.com/team) lab sites which are out of date (admittedly Peclab only slightly), so it's only as useful as the inputs. Leading me to think we should have an MSB master tabel anyone can update easily.
+Also it's pulling from [Mike](https://mikeheithaus.com/research/lab/) and [Yannis/Demian's](https://www.peclabfiu.com/team) lab sites which are out of date (admittedly Peclab only slightly), so it's only as useful as the inputs. Leading me to think we should have an MSB master table anyone can update easily.
 
-```{r, echo = FALSE}
+```{r}
+#| warning: false
+#| echo: false
+#| message: false
 labs_members <- read.csv(file = "data/labs_members.csv")
-DT::renderDT({labs_members})
+# DT::renderDT({labs_members})
+DT::datatable((labs_members), rownames = FALSE)
 ```
-
-Test. If you see this, the table above isn't working.
