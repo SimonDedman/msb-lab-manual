@@ -24,16 +24,16 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages:
-            # any::knitr
+            any::knitr
             any::rmarkdown
-            # any::rvest
-            # any::dplyr
-            # any::tidyr
+            any::rvest
+            any::dplyr
+            any::tidyr
             # any::sf
             # any::leaflet
             # any::gt
             # any::evaluate
-            any::base64enc
+            # any::base64enc
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
