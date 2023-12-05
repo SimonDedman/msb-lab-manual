@@ -382,6 +382,6 @@
     "href": "99-lab-members.html",
     "title": "14  Labs Members",
     "section": "",
-    "text": "Create markdown doc from /R/labs-members-metadata-comms.R\nNeed to improve code for labs websites scraping to tables. Bard did it but its code doesn’t work."
+    "text": "Create markdown doc from /R/labs-members-metadata-comms.R\nNeed to improve code for labs websites scraping to tables. Bard did it but its code doesn’t work.\nAlso it’s pulling from Mike and Yannis/Demian’s lab sites which are out of date (admittedly Peclab only slightly), so it’s only as useful as the inputs. Leading me to think we should have an MSB master table anyone can update easily."
   }
 ]
