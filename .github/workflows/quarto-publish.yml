@@ -36,6 +36,7 @@ jobs:
             any::rvest
             any::dplyr
             any::tidyr
+            any::DT
             # any::sf
             # any::leaflet
             # any::gt
