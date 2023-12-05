@@ -33,6 +33,7 @@ jobs:
             # any::leaflet
             # any::gt
             # any::evaluate
+            any::base64enc
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
