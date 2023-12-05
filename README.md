@@ -1,5 +1,5 @@
 <p align="center"> 
-   :sparkles: Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual :sparkles: 
+   Florida International University, Biscayne Bay Campus, Marine Science Building, labs manual
 </p>
 
 
