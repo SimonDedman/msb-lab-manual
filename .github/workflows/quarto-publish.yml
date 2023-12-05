@@ -33,9 +33,9 @@ jobs:
           packages:
             any::knitr
             any::rmarkdown
-            any::rvest
-            any::dplyr
-            any::tidyr
+            # any::rvest
+            # any::dplyr
+            # any::tidyr
             any::DT
             # any::sf
             # any::leaflet
