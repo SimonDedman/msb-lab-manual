@@ -1,17 +1,17 @@
 ---
 title: "Labs Members"
 author: "Simon Dedman"
-runtime: shiny
+# runtime: shiny
 ---
 ```{r setup}
 #| warning: false
 #| echo: false
 #| message: false
 #| include: false
-install.packages("rmarkdown")
+# install.packages("rmarkdown")
 # library(shiny)
 library(DT)
-library(rmarkdown)
+# library(rmarkdown)
 ```
 Create markdown doc from /R/labs-members-metadata-comms.R
 
